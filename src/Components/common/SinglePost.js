@@ -8,6 +8,8 @@ const SinglePost = ({ image, content, user, id }) => {
 
   function handleDeletPost() {
     dispatch({ type: "DELETE_POST", payload: { id } });
+    console.log("aa")
+    console.log("aa")
   }
   return (
     <div>
